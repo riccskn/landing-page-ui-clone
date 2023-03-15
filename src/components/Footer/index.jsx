@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../assets/images/logo.png";
 import FacebookIcon from "../../assets/images/facebook.png";
 import InstagramIcon from "../../assets/images/instagram.png";
 import TiktokIcon from "../../assets/images/tiktok.png";
@@ -26,7 +25,7 @@ export default function FooterArea() {
         <Footer>
             <Container>
                 <TextsBox>
-                    <Logo src={Image} />
+                    <Logo src={"http://localhost:9000/api/v1/images/logo"} />
                     <TextPhrase>
                         One of the best furniture
                         <br />

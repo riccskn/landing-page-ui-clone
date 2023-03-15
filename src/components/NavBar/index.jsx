@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "../../assets/images/logo.png"
 import "./styles"
 import {Nav, Logo, Links, Item, Link, LinkHome, CustomButton, StyledButton} from "./styles";
 

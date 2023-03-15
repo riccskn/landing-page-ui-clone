@@ -17,7 +17,7 @@ export default function ProductArea() {
                 setProducts(res.data)
             })
 
-         })
+         }, [])
 
     return (
         <Product>

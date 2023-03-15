@@ -46,16 +46,13 @@ export default function MainArea() {
         getCountProjectsCompleted()
             .then(res => setProjectsCompleted(res.data))
 
-        getCountProjectsCompleted()
-            .then(res => console.log(res.data))
-
         getCountProfessionalTeams()
             .then(res => setProfessionalTeams(res.data))
 
         getCountYearsExperience()
             .then(res => setYearsExperience(res.data))
 
-    })
+    }, [])
 
     return (
         <Main>
